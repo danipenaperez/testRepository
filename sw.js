@@ -1,15 +1,10 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('vulgus-spa').then((cache) => cache.addAll([
-      '/testRepository/',
-      '/testRepository/index.html',
-      '/testRepository/index.js',
-      '/testRepository/vulgusSPA.html'
-      // '/pwa-examples/a2hs/style.css',
-      // '/pwa-examples/a2hs/images/fox1.jpg',
-      // '/pwa-examples/a2hs/images/fox2.jpg',
-      // '/pwa-examples/a2hs/images/fox3.jpg',
-      // '/pwa-examples/a2hs/images/fox4.jpg',
+      // '/testRepository/',
+      // '/testRepository/index.html',
+      // '/testRepository/index.js',
+      // '/testRepository/vulgusSPA.html'
     ])),
   );
 });
