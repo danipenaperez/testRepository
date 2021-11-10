@@ -2,9 +2,9 @@ self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('fox-store').then((cache) => cache.addAll([
       '',
-      'index.html',
-      'index.js',
-      'vulgusSPA.html'
+      '/testRepository/index.html',
+      '/testRepository/index.js',
+      '/testRepository/vulgusSPA.html'
       // '/pwa-examples/a2hs/style.css',
       // '/pwa-examples/a2hs/images/fox1.jpg',
       // '/pwa-examples/a2hs/images/fox2.jpg',
