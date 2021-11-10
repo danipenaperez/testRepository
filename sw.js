@@ -3,7 +3,8 @@ self.addEventListener('install', (e) => {
     caches.open('fox-store').then((cache) => cache.addAll([
       '',
       'index.html',
-      'vulgusSPA.js'
+      'index.js',
+      'vulgusSPA.html'
       // '/pwa-examples/a2hs/style.css',
       // '/pwa-examples/a2hs/images/fox1.jpg',
       // '/pwa-examples/a2hs/images/fox2.jpg',
