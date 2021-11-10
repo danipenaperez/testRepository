@@ -1,7 +1,7 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('fox-store').then((cache) => cache.addAll([
-      '',
+    caches.open('vulgus-spa').then((cache) => cache.addAll([
+      '/testRepository/',
       '/testRepository/index.html',
       '/testRepository/index.js',
       '/testRepository/vulgusSPA.html'
