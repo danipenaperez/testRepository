@@ -5,6 +5,7 @@ self.addEventListener('activate', function(event) {
         cacheNames.filter(function(cacheName) {
           return true;
         }).map(function(cacheName) {
+          console.log("deleting cache "+ cacheName);
           return caches.delete(cacheName);
         })
       );
