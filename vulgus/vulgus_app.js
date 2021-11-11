@@ -1,5 +1,6 @@
 
 function vulgus_app_init(){
+	
 var exploreSessionsViewGrid = new laurbe.View({
 				menuName:'ShowGrid',
 				items:[
@@ -552,4 +553,5 @@ var app = new laurbe.App({
 	views:[exploreSessionsViewGrid,exploreSessionsView, mySessionsView,detailedSession, myProfileView]
 });
 app.init();
+console.log('cargado desde js');
 }
