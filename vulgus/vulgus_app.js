@@ -618,7 +618,7 @@ var detailedSession = new laurbe.View({
 																		new laurbe.Comment({
 																			 title:'Manolo',
 																			 img:{
-																				 src:'http://rs775.pbsrc.com/albums/yy35/PhoenyxStar/link-1.jpg~c200'
+																				src:'./images/icons/guitar/favicon.png'
 																			 },
 																			 items:[
 																					 new laurbe.YouTubeVideo({
@@ -636,7 +636,7 @@ var detailedSession = new laurbe.View({
 																		new laurbe.Comment({
 																			 title:'Manolo',
 																			 img:{
-																				 src:'http://rs775.pbsrc.com/albums/yy35/PhoenyxStar/link-1.jpg~c200'
+																				src:'./images/icons/guitar/favicon.png'
 																			 },
 																			 text:'Bueno, a mi no me pareces tan feo, pero si que es verdad que te podrias lavar un poco mas, aunque sea en fin de semana.',
 																			 items:[
@@ -648,7 +648,7 @@ var detailedSession = new laurbe.View({
 																		new laurbe.Comment({
 																			 title:'Daniel',
 																			 img:{
-																				 src:'https://yt3.ggpht.com/-tO_SdVYSVg8/AAAAAAAAAAI/AAAAAAAAAAA/t089mcHnzD0/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg'
+																				src:'https://yt3.ggpht.com/-tO_SdVYSVg8/AAAAAAAAAAI/AAAAAAAAAAA/t089mcHnzD0/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg'
 																			 },
 																			 text:'Ok, te aviso cuando cambie de opinion'
 																		})
