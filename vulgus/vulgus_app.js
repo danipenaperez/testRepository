@@ -22,20 +22,70 @@ var data={
 function vulgus_app_init(){
 	var exploreSessionsViewGridDinamic = new laurbe.ScrollableCardListView({
 		menuName:'ScollableGridView',
-		items:[
-		// new laurbe.Card({
-		// 									title:'Anthrax',
-		// 									text:'Anthrax embematic Songs for destruction!! ',
-		// 									footMessage:'Metal, Anthrax',
-		// 									img:{
-		// 										src: 'https://images.backstreetmerch.com/images/products/bands/misc/anth/bsi_anth17.jpg',
-		// 										alt: 'Anthrax tribute'
-		// 									},
-		// 									onclick: function(){
-		// 										alert('me han clickado Anthrax');
-		// 									}
-		// 								})
-		]
+		onShow: function(instance){
+
+			console.log('e instance es ');
+			console.log(instance);
+			alert('fetching data from ./vulgus/rest/fetchedSessions.js...');
+			$.get("./vulgus/rest/fetchedSessions.js", function(data, status){
+				
+				console.log('estoy en ScrollableView y voy a cargar de lo recibido por llamada Ajax a fetchedSessions.js');
+				var dataLoaded = JSON.parse(data);
+				alert('received new '+ dataLoaded.length+ ' music sessions');
+				//Es necesario acceder al grid principal
+				var instanceGridContainer = instance.instanceProperties.items[0];
+				//Parte un array en pares de 2 y si es impar siempre queda un elemento suelto
+				laurbe.utils.pairDataArraywise(dataLoaded,2, function(obj1,obj2){
+					var _items =[];
+					if(obj1){
+						_items.push(
+							new laurbe.Column({
+								items:[
+									new laurbe.Card({
+											title:obj1.title,
+											text:obj1.description,
+											footMessage:'Metal,'+obj1.tags[1],
+											img:{
+												src: obj1.img,
+												alt: 'Metallic Aftenoon'
+											},
+											onclick: function(){
+												alert('soy '+obj1.title);
+											}
+										})
+								]
+							})
+						);
+					}
+					if(obj2){
+						_items.push(
+							new laurbe.Column({
+								items:[
+									new laurbe.Card({
+											title:obj2.title,
+											text:obj2.description,
+											footMessage:'Metal,'+obj2.tags[1],
+											img:{
+												src: obj2.img,
+												alt: 'Metallic Aftenoon'
+											},
+											onclick: function(){
+												alert('soy '+obj2);
+											}
+										})
+								]
+							})
+						);
+					}
+					instanceGridContainer._appendChilds([new laurbe.Row({
+						items:_items
+					})],true);
+				});
+				
+			});
+
+		},
+		items:[]
 		
 	});
 	
