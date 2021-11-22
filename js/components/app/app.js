@@ -180,15 +180,19 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 	},
 	_bindGlobalEvents:function(app){
 		// Referencia https://www.yogihosting.com/jquery-infinite-scroll/
-		/**
+		/**	 */
 		$(window).scroll(function () {
 			// End of the document reached?
+			
 			if ($(document).height() - $(this).height() == $(this).scrollTop()) {
-				app._onInfiniteScrollEvent();
+				
+				alert( $(document).height() +' - ' + $(this).height()+' == '+ $(this).scrollTop());
+				//app._onInfiniteScrollEvent();
 			}
 		});
-		 */
+	
 
+		/**
 		window.addEventListener('scroll', () => {
 			const {
 				scrollTop,
@@ -197,12 +201,13 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 			} = document.documentElement;
 		
 			if (scrollTop + clientHeight >= scrollHeight - 5 ) {
-				app._onInfiniteScrollEvent();
+				
+				//app._onInfiniteScrollEvent();
 			}
 		}, {
 			passive: true
 		});
-
+ */
 	},
 	/**
 	 * Catch global on infinite scroll and call to currentView onInfiniteScroll
