@@ -191,7 +191,7 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 			
             let currentHeigth = Math.round($(document).height() - $(this).height());
 			let currentScrollTop = Math.round($(this).scrollTop());
-			if (currentHeigth === currentScrollTop) {
+			if (currentHeigth === currentScrollTop - 5) { 
 				alert("detectado infinite scroll");
 				app._onInfiniteScrollEvent();
 				alert("finalizado infinite scroll");
