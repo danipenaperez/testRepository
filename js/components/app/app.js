@@ -183,7 +183,13 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 		/**	 */
 		$(window).scroll(function () {
 			// End of the document reached?
+			$('#page_height').html($(document).height() );
+			$('#this_height').html($(this).height() );
+			$('#page_scrolltop').html($(this).scrollTop());
+			$('#page_max_height').html($(this).height());
+			$('#page_acumulated').html(($(document).height() - $(this).height()) +' mustbeequalsto '+$(this).scrollTop());
 			
+            
 			if ($(document).height() - $(this).height() == $(this).scrollTop()) {
 				
 				alert( $(document).height() +' - ' + $(this).height()+' == '+ $(this).scrollTop());
