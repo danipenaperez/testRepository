@@ -187,9 +187,10 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 			$('#this_height').html($(this).height() );
 			$('#page_scrolltop').html($(this).scrollTop());
 			$('#page_max_height').html($(this).height());
-			$('#page_acumulated').html(($(document).height() - $(this).height()) +' mustbeequalsto '+$(this).scrollTop());
+			$('#page_acumulated').html((Math.round($(document).height() - $(this).height())) +' mustbeequalsto '+Math.round($(this).scrollTop()));
 			
-            
+            let currentHeigth = Math.round($(document).height() - $(this).height());
+			let currentScrollTop = Math.round($(this).scrollTop());
 			if ($(document).height() - $(this).height() == $(this).scrollTop()) {
 				
 				alert( $(document).height() +' - ' + $(this).height()+' == '+ $(this).scrollTop());
