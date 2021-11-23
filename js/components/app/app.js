@@ -192,9 +192,8 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
             let currentHeigth = Math.round($(document).height() - $(this).height());
 			let currentScrollTop = Math.round($(this).scrollTop());
 			if ($(document).height() - $(this).height() == $(this).scrollTop()) {
-				
-				alert( $(document).height() +' - ' + $(this).height()+' == '+ $(this).scrollTop());
-				//app._onInfiniteScrollEvent();
+				//alert( $(document).height() +' - ' + $(this).height()+' == '+ $(this).scrollTop());
+				app._onInfiniteScrollEvent();
 			}
 		});
 	
