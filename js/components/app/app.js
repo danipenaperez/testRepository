@@ -191,10 +191,17 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 			
             let currentHeigth = Math.round($(document).height() - $(this).height());
 			let currentScrollTop = Math.round($(this).scrollTop());
-			if (currentHeigth === currentScrollTop - 5) { 
-				alert("detectado infinite scroll");
+			if (currentHeigth == currentScrollTop) {
+				$('#page_info').html('['+currentHeigth+' != ' + currentScrollTop+']');
+				//alert("detectado infinite scroll");
 				app._onInfiniteScrollEvent();
-				alert("finalizado infinite scroll");
+				
+				var scrollingElement = (document.scrollingElement || document.body);
+				scrollingElement.scrollTop = scrollingElement.scrollHeight-5;
+				
+				//alert("finalizado infinite scroll");
+			}else{
+				$('#page_info').html('['+currentHeigth+' != ' + currentScrollTop+']');
 			}
 		});
 	
@@ -221,9 +228,9 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 	 */
 	_onInfiniteScrollEvent:function(){
 		console.log('app.oninfiniteScroll');
-		alert(1);
+		//alert(1);
 		this.currentView.onInfiniteScroll(this.currentView);
-		alert(12);
+		//alert(12);
 	},
 	/**
 	*
