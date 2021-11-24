@@ -183,16 +183,16 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 		/**	 */
 		$(window).scroll(function () {
 			// End of the document reached?
-			$('#page_height').html($(document).height() );
-			$('#this_height').html($(this).height() );
-			$('#page_scrolltop').html($(this).scrollTop());
-			$('#page_max_height').html($(this).height());
-			$('#page_acumulated').html((Math.round($(document).height() - $(this).height())) +' mustbeequalsto '+Math.round($(this).scrollTop()));
+			// $('#page_height').html($(document).height() );
+			// $('#this_height').html($(this).height() );
+			// $('#page_scrolltop').html($(this).scrollTop());
+			// $('#page_max_height').html($(this).height());
+			// $('#page_acumulated').html((Math.round($(document).height() - $(this).height())) +' mustbeequalsto '+Math.round($(this).scrollTop()));
 			
             let currentHeigth = Math.round($(document).height() - $(this).height());
 			let currentScrollTop = Math.round($(this).scrollTop());
 			if (currentHeigth == currentScrollTop) {
-				$('#page_info').html('['+currentHeigth+' != ' + currentScrollTop+']');
+				$('#page_info').html('['+currentHeigth+' == ' + currentScrollTop+']');
 				//alert("detectado infinite scroll");
 				app._onInfiniteScrollEvent();
 				
