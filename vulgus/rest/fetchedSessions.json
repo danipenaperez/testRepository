@@ -7,6 +7,13 @@
 
     },
     {
+        "title":"Metelando sin parar ni trabajando",
+        "description": "Los locos han vuelto y te estan buscando",
+        "tags":["Metal", "Metallica"],
+        "img": "./images/animatedgif.gif"
+
+    },
+    {
         "title":"Lucifer",
         "description": "Metal Lucifer",
         "tags":["Metal", "Lucifer"],
