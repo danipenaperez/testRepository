@@ -480,7 +480,7 @@ vulgus_app = new laurbe.App({
 				onclick:function(){
 					try {
 						//https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share
-						navigator.share({ title: "Example Page", url: "" });
+						navigator.share({ title: "Example Page", url: "https://danipenaperez.github.io/testRepository/vulgusSPA.html?session=12345" });
 						console.log("Data was shared successfully");
 					  } catch (err) {
 						console.error("Share failed:", err.message);
