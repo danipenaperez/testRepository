@@ -461,7 +461,20 @@ vulgus_app = new laurbe.App({
 			//detailedSession,
 			detailedView,
 			myProfileView,
-			dynamicView ]
+			dynamicView ],
+	bottomNavBar:{
+		items:[
+			new laurbe.Button({
+				text:'Crear',
+				span:{
+					text:'4'
+				},
+				onclick:function(){
+					alert('soy el boton y me han pulsado');
+				}
+			})
+		]
+	}
 });
 vulgus_app.init();
 console.log('cargado desde js');
