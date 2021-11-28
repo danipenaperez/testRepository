@@ -465,12 +465,27 @@ vulgus_app = new laurbe.App({
 	bottomNavBar:{
 		items:[
 			new laurbe.Button({
-				text:'Crear',
-				span:{
-					text:'4'
+				//text:'Crear',
+				//span:{ text:'4'},
+				image:{
+					src: "https://img.icons8.com/dotty/80/000000/add.png"
 				},
 				onclick:function(){
-					alert('soy el boton y me han pulsado');
+					alert('Creando session');
+
+				}
+			}),
+			new laurbe.Button({
+				text:'Share',
+				onclick:function(){
+					try {
+						//https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share
+						navigator.share({ title: "Example Page", url: "" });
+						console.log("Data was shared successfully");
+					  } catch (err) {
+						console.error("Share failed:", err.message);
+					  }
+
 				}
 			})
 		]
