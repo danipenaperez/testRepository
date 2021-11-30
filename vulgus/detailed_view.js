@@ -10,6 +10,9 @@ var detailedView = new laurbe.ScrollableCardListView({
                         onShow:function(instance){
                             console.log('e instance es ');
                             console.log(instance);
+                            var loadViewArgs = laurbe.utils.getURLArgs();
+                            console.log('y me han cargado con args');
+                            console.log(loadViewArgs);
                             alert('fetching data from ./vulgus/rest/sessions_andjustice.js...');
                             $.getJSON("./vulgus/rest/sessions_andjustice.json", function(data, status){
                                 let to_append_items=[

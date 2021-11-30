@@ -261,6 +261,25 @@ var laurbe ={
 				var el = document.getElementById(elementId);
     			el.scrollIntoView(true);
 			},
+			/**
+			 * Return a String with this format key1=val1&key2=val2&key3=val3 ....
+			 * @param {javascript object} obj 
+			 */
+			toKeyValueQueryParams:function(data){
+				var str = Object.keys(data).map(key => `${key}=${data[key]}`).join("&");
+				return str;
+			},
+			getURLArgs:function(){
+				var vars = [], hash;
+				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+				for(var i = 0; i < hashes.length; i++)
+				{
+					hash = hashes[i].split('=');
+					vars.push(hash[0]);
+					vars[hash[0]] = hash[1];
+				}
+				return vars;
+			},
 			pairDataArraywise(arr,groupSize , func ){
 				groupSize = groupSize || 1;
 				var index=0;

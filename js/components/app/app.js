@@ -175,6 +175,20 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 		this.currentView = view;
 		view._renderTo('appMainViewContainer');
 	},
+	/**
+	 * Show the desired view and add to navigation history
+	 * @param {target } view 
+	 * @param {*} args 
+	 */
+	_navigate:function(view, args){
+		args.view=view.instanceProperties.id;
+		var view_args = laurbe.utils.toKeyValueQueryParams(args);
+		//1.Set the navigation params and add to history
+		var refresh = window.location.protocol + "//" + window.location.host + window.location.pathname + '?'+view_args;    
+        window.history.pushState({ path: refresh }, '', refresh);
+		//2.Show the view
+		this._showView(view);
+	},
 	_bindGlobalEvents:function(app){
 		// Referencia https://www.yogihosting.com/jquery-infinite-scroll/
 		/**	 */
