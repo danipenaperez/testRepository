@@ -1,5 +1,6 @@
 var exploreSessionsViewGridDinamic = new laurbe.ScrollableCardListView({
     menuName:'Explore',
+    id: 'ExploreSessions_View',
     items:[],
     pageNumber:0,
     onShow: function(instance){
@@ -14,8 +15,11 @@ var exploreSessionsViewGridDinamic = new laurbe.ScrollableCardListView({
     
 });
 
-function fetchSessions(instance){
 
+/******
+ *  FUNCTIONALLITY METHODS
+ *****/
+function fetchSessions(instance){
     console.log('e instance es ');
     console.log(instance);
    // alert('fetching data from ./vulgus/rest/fetchedSessions.js...');
@@ -46,8 +50,8 @@ function fetchSessions(instance){
                                         alt: 'Metallic Aftenoon'
                                     },
                                     onclick: function(){
-                                        alert('soy '+obj1.title+ ' '+ obj1.id_session);
-                                        vulgus_app._navigate(vulgus_app.views[4], {"id_session": obj1.id_session});
+                                        //alert('soy '+obj1.title+ ' '+ obj1.id_session);
+                                        vulgus_app._navigate('DetailedSessionView', {"id_session": obj1.id_session});
                                     }
                                 })
                         ]
@@ -67,8 +71,8 @@ function fetchSessions(instance){
                                         alt: 'Metallic Aftenoon'
                                     },
                                     onclick: function(){
-                                        alert('soy '+obj2.title+ ' '+ obj2.id_session);
-                                        vulgus_app._navigate(vulgus_app.views[4], {"id_session": obj2.id_session});
+                                        //alert('soy '+obj2.title+ ' '+ obj2.id_session);
+                                        vulgus_app._navigate('DetailedSessionView', {"id_session": obj2.id_session});
                                     }
                                 })
                         ]

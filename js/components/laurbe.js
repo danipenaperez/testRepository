@@ -184,7 +184,7 @@ var laurbe ={
 			removeAllChilds:function(){
 				console.log('laurbe.removeAllChilds()');
 				$('#'+this._getRenderChildWrapperId()).empty();//jquery visual destroy
-				this.items = []; //reinitialize items as empty array
+				this.instanceProperties.items = []; //reinitialize items as empty array
 				// console.log('all childs have been removed');
 			},
 			/**
@@ -269,6 +269,11 @@ var laurbe ={
 				var str = Object.keys(data).map(key => `${key}=${data[key]}`).join("&");
 				return str;
 			},
+			/**
+			 * From a queryString key=val$key2=val2 ... returns ajavascript object
+			 * can be used as var val1 = laurbe.utils.getUrlVars()["key1"];
+			 * @returns 
+			 */
 			getURLArgs:function(){
 				var vars = [], hash;
 				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
