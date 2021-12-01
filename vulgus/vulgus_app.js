@@ -472,9 +472,9 @@ vulgus_app = new laurbe.App({
 								extraClass:'btn-block',
 								type:'secondary',
 								//span:{ text:'4'},
-								// image:{
-								// 	src: "https://img.icons8.com/dotty/80/000000/add.png"
-								// },
+								image:{
+									src: "https://img.icons8.com/ios/64/000000/search--v4.png"
+								},
 								onclick:function(){
 									vulgus_app._navigate('ExploreSessions_View', {"genre": "metal"});
 				
@@ -485,12 +485,12 @@ vulgus_app = new laurbe.App({
 					new laurbe.NavBarBottomMenuItem({
 						items:[
 							new laurbe.Button({
-								text:'Home',
+								//text:'Home',
 								extraClass:'btn-block',
 								type:'secondary',
-								// image:{
-								// 	src: "https://img.icons8.com/dotty/80/000000/add.png"
-								// },
+								image:{
+								 	src: "https://img.icons8.com/wired/64/000000/homer-simpson.png"
+								},
 								onclick:function(){
 									vulgus_app._navigate('ExploreSessions_View', {"genre": "metal"});
 				
@@ -500,17 +500,33 @@ vulgus_app = new laurbe.App({
 					}),
 					new laurbe.NavBarBottomMenuItem({
 						items:[
-							new laurbe.Button({
-								text:'FAv',
-								extraClass:'btn-block',
-								type:'secondary',
-								onclick:function(){
-									vulgus_app._navigate('ExploreSessions_View', {"genre": "metal"});
-				
+							new laurbe.Image({
+								img_src: 'https://img.icons8.com/wired/50/000000/left.png',
+								alt:'tom cruise',
+								width:"32",
+								height:"32",
+								onclick: function(){
+									alert('Haciendo back');
 								}
 							})
 						]
-					})			
+					}),
+					new laurbe.NavBarBottomMenuItem({
+						items:[
+							new laurbe.Image({
+								img_src: 'https://img.icons8.com/wired/64/000000/person-at-home.png',
+								alt:'tom cruise',
+								width:"32",
+								height:"32",
+								onclick: function(){
+									alert('Adding a session');
+								}
+							})
+						]
+					})
+					
+
+					
 		]
 	}
 });

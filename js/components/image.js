@@ -61,6 +61,8 @@ laurbe.Image = function Image(args){
 				tag:'<div>', 
 				class:'d-flex justify-content-center align-self-center'
 			}
+			//,width:"32"
+			//,height:"32"
 	};
 	
 	/** Extends Defautls with args constructor **/
