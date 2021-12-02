@@ -18,7 +18,6 @@ laurbe.prototype.Image = $.extend({}, laurbe.BaseViewElement, {
 				url: '/html/components/image/imageTemplate.html'
 	},
 	onclickHandler: function(ev){
-		alert('soy IMAGE');
 		console.log(this);
 		var currentObject = laurbe.Directory[ev.currentTarget.id.replace('Wrapper','')];
 		if(currentObject.instanceProperties.onclick){

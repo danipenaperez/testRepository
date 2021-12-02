@@ -5,6 +5,7 @@ function vulgus_app_init(){
 
 	var socialLogin = new laurbe.View({
 						menuName:'Login',
+						id: 'Login_View',
 						items:[
 							new laurbe.SocialLoginView({
 
@@ -14,6 +15,7 @@ function vulgus_app_init(){
 
 	var exploreSessionsView = new laurbe.View({
 				menuName:'Explore2',
+				id: 'Explore2_View',
 				items:[
 					new laurbe.Container({
 						childsWrapperStyle:'text-align:center',
@@ -28,8 +30,6 @@ function vulgus_app_init(){
 											var dialog = new laurbe.ModalDialog({
 															message:'hola caracola'
 														});
-											console.log('y soy');
-											console.log(dialog);
 											dialog._render();
 											dialog.show();
 										}
@@ -178,6 +178,7 @@ function vulgus_app_init(){
 
 var mySessionsView = new laurbe.View({
 				menuName:'MySessions',
+				id: 'MySessions_View',
 				items:[
 					new laurbe.Container({
 							items:[
@@ -410,38 +411,7 @@ var myProfileView = new laurbe.View({
 					]
 				});				
 
-		var dynamicView = new laurbe.View({
-					id:'dynamicView',
-					menuName:'dynamicView',
-					onShow:function(instance){
-						laurbe.logger.log('--------on show especifico de la instancia--------');
-					},
-					items:[
-						new laurbe.Layout({
-							items: [
-								new laurbe.Region({
-									text:'',
-									items:[
-										new laurbe.Form({
-											id:'dynamicView_UserForm',
-											items:[
-												new laurbe.Button({
-													text:'Load Form Data',
-													onclick:function(_self){
-														alert('Loading Form Data');
-														loadUserFormData();
-													}
-												})
 
-											]
-										})
-										
-									]
-								})
-							]
-						})
-					]
-				});		
 
 
 vulgus_app = new laurbe.App({
@@ -462,7 +432,12 @@ vulgus_app = new laurbe.App({
 			detailedView,
 			myProfileView,
 			dynamicView ],
+	dao: new laurbe.RestDAO({
+					basePath:'http://localhost:3000/laurbe'
+	}),
+	storageManager: new laurbe.LocalStorageManager({
 			
+	}),  	
 	bottomNavBar:{
 		items:[
 					new laurbe.NavBarBottomMenuItem({
@@ -502,7 +477,7 @@ vulgus_app = new laurbe.App({
 						items:[
 							new laurbe.Image({
 								img_src: 'https://img.icons8.com/wired/50/000000/left.png',
-								alt:'tom cruise',
+								alt:'Back',
 								width:"32",
 								height:"32",
 								onclick: function(){
@@ -519,7 +494,14 @@ vulgus_app = new laurbe.App({
 								width:"32",
 								height:"32",
 								onclick: function(){
-									alert('Adding a session');
+									var token =vulgus_app.storageManager.get('vulgus_token');
+									if(!token){
+										var loginToken = Math.random();
+										vulgus_app.storageManager.save('vulgus_token', loginToken);
+										alert("sucessfully loggedin "+loginToken);
+									}else{
+										alert('ya logueado '+token);
+									}
 								}
 							})
 						]
@@ -535,45 +517,3 @@ console.log('cargado desde js');
 }
 
 
-function loadUserFormData(){
-
-	$.get("./vulgus/rest/fetchedSessions.js", function(data, status){
-		alert("Data: " + data + "\nStatus: " + status);
-		console.log(data);
-		var dataLoaded = JSON.parse(data);
-		alert(dataLoaded[0]);
-		console.log(dataLoaded);
-	});
-
-
-
-	laurbe.Directory['dynamicView_UserForm']._appendChilds([
-		new laurbe.Image({
-			img_src: 'https://yt3.ggpht.com/-tO_SdVYSVg8/AAAAAAAAAAI/AAAAAAAAAAA/t089mcHnzD0/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg',
-			alt:'Daniel Peña Perez',
-			onclick: function(){
-				alert('Yeah, Rock Now!');
-			}
-		}),
-		new laurbe.TextField({
-			label:'Name',
-			value:'Daniel Peña Perez (el "serpiente")'
-		}),
-		new laurbe.TextField({
-			label:'edad',
-			value:'40'
-		}),
-		new laurbe.TextField({
-			label:'Score',
-			value:'4/5'
-		}),
-		new laurbe.TextField({
-			label:'Plays',
-			value:'Guitar, Bass'
-		}),
-		new laurbe.TextField({
-			label:'Zones',
-			value:'Madrid , Spain'
-		})
-		], true);
-}
