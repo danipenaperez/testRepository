@@ -88,7 +88,13 @@
         window.history.pushState({ path: destinationURL }, '', destinationURL);
     },
     onBackPressNavigation:function(){
-        alert('vamos patras');
+        alert('vamos patras ');
+        var hist='';
+        for(i=0;i<this.history.length;i++){
+            hist=hist+this.history[i]+' \r ';
+        }
+
+        alert(hist);
     }
 	
 
