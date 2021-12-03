@@ -125,7 +125,7 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 
 		//Always exists on laurbe app, but could be overwrite in app definition
 		if(!instanceProperties.navigatorManager)
-			this.navigatorManager = new laurbe.NavigatorManager({});
+			this.navigatorManager = new laurbe.NavigatorManager({relatedApp:this});
 		//Always exists on laurbe app, but could be overwrite in app definition
 		if(!instanceProperties.shareSocialManager)
 			this.shareSocialManager = new laurbe.ShareSocialManager({});	
@@ -267,7 +267,8 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 		//alert(window);
 		var self=this;
 		window.onhashchange=function(){
-			self.navigatorManager.onBackPressNavigation();
+			//Deactivated
+			//self.navigatorManager.onBackPressNavigation();
 		}
 		// alert('paso a la accion');
 		// window.addEventListener('popstate', function(event) {
