@@ -86,6 +86,9 @@
         this.history.push(destinationURL);
         //3.Write to URL Navbar
         window.history.pushState({ path: destinationURL }, '', destinationURL);
+    },
+    onBackPressNavigation:function(){
+        alert('vamos patras');
     }
 	
 

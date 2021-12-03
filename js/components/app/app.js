@@ -264,23 +264,16 @@ laurbe.prototype.App = $.extend({}, laurbe.prototype.BaseAPP, {
 			}
 		});
 	
-
-		/**
-		window.addEventListener('scroll', () => {
-			const {
-				scrollTop,
-				scrollHeight,
-				clientHeight
-			} = document.documentElement;
+		//alert(window);
+		var self=this;
+		window.onhashchange=function(){
+			self.navigatorManager.onBackPressNavigation();
+		}
+		// alert('paso a la accion');
+		// window.addEventListener('popstate', function(event) {
+		// 	this.alert('soy popstate');
+		// });
 		
-			if (scrollTop + clientHeight >= scrollHeight - 5 ) {
-				
-				//app._onInfiniteScrollEvent();
-			}
-		}, {
-			passive: true
-		});
- */
 	},
 	/**
 	 * Catch global on infinite scroll and call to currentView onInfiniteScroll
