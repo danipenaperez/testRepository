@@ -38,7 +38,7 @@
         {
             "user": {
                 "name": "Manolo",
-                "img":"/images/icons/guitar/favicon.png"
+                "img":"testRepository/images/icons/guitar/favicon.png"
             },
             "content": [
                 {
