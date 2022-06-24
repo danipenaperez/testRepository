@@ -30,6 +30,23 @@
                     "src": "https://www.youtube.com/embed/9mVBPbJYiMg"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Albert lee examples, vas a fliparlo como se te va a quedar la carita..."
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/Jj_SfowKL4E"
+                }
+            ]
         }
     ]
 }
