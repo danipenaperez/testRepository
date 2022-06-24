@@ -108,5 +108,12 @@
         "description": "A Buleirar un poco",
         "tags":["Flamenco", "Metallica"],
         "img": "http://www.sgae.es/ImagenesSGAE/2020/Musica/Noticias/Flamenco_Latin_Grammy_SGAE_2020.jpg"
+    },
+    {
+        "title":"Country Sessions",
+        "id_session": "country_sessions",
+        "description": "A Countriear",
+        "tags":["Country"],
+        "img": "https://musicindustryhowtoimages.s3.amazonaws.com/wp-content/uploads/2016/10/12071823/play-country-guitar.jpg"
     }
 ]
