@@ -116,4 +116,40 @@
         "tags":["Country"],
         "img": "https://musicindustryhowtoimages.s3.amazonaws.com/wp-content/uploads/2016/10/12071823/play-country-guitar.jpg"
     }
+    ,
+    {
+        "title":"Bass Tutorials",
+        "id_session": "bass_tutorials",
+        "description": "Tutoriales buenos para bajistas",
+        "tags":["Metal", "Bass"],
+        "img": "https://alliancemusicacademy.com/wp-content/uploads/2012/09/Electric-bass.jpg"
+        
+    }
+    ,
+    {
+        "title":"Guitar Shred Tutorials",
+        "id_session": "shred_guitar",
+        "description": "Tecnicas guitarra solos",
+        "tags":["Metal", "Bass"],
+        "img": "https://ychef.files.bbci.co.uk/1600x900/p072v7x0.webp"
+        
+    }
+    ,
+    {
+        "title":"Flamenco Guitar Tutorials",
+        "id_session": "flamenco_tecnicas",
+        "description": "Tecnicas guitarra flamenca",
+        "tags":["Metal", "Flamenco"],
+        "img": "https://musicopolix.com/blog/wp-content/uploads/2021/05/que-guitarra-flamenca-comprar-bonita.jpg"
+        
+    }
+    ,
+    {
+        "title":"Country Guitar Tutorials",
+        "id_session": "country_tecniques",
+        "description": "Tecnicas guitarra country",
+        "tags":["Country"],
+        "img": "https://cdn.mos.cms.futurecdn.net/VYtaVE3MoGxM5uQfWutve5-970-80.png.webp"
+        
+    }
 ]

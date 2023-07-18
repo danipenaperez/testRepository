@@ -1,0 +1,281 @@
+{
+    "title":"Flamenco Sessions",
+    "id_session": "country_tecniques",
+    "description": "Tecnicas country",
+    "tags":["Country"],
+    "img": "https://cdn.mos.cms.futurecdn.net/VYtaVE3MoGxM5uQfWutve5-970-80.png.webp",
+    "setList":[
+        {
+            "name": "La primera",
+            "link":{
+                "type": "spotify",
+                "src": "https://open.spotify.com/embed/track/32OlwWuMpZ6b0aN2RZOeMS"
+            }
+        }
+    ],
+    "comments":[
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Lick rapido"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=gaSNxHZTZo0"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Soloing"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=1Nj4mDK-Xwk"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "openlinks cantery country chicking picking chicken "
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=wFnY723EZq4"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.guitarworld.com/lessons/20-country-guitar-licks"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Daniel Donato armonia e ideas "
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=dbE6la84fXU"
+                }
+                ,
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=GqMfxct0MhU"
+                }
+
+                
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Jerry Donahue "
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/WfJm11hJpuY"
+                },
+                {
+                    "type": "text",
+                    "value": "Danny Gatton full video"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/rqqbFmgOFHs"
+                },
+                {
+                    "type": "text",
+                    "value": "aLbert lee"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=HNf963htMug"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Merle Travis tecnicas "
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=1IDGzHKHtVk"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=zQFF5Hddiik"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=xrc5J99vnQc"
+                },
+                {
+                    "type": "text",
+                    "value": "Blue Moon "
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=HeC-4r6OsBE"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Bret Manson Tecnicas "
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=LTAElrONyfA"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=ptQ4uhnsjdE"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=vMy_0_mIT5I"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Canteri"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=wFnY723EZq4&list=PLmJZA0kOrfCIhvc9NePBWSyfhASuiLiUE"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Rockabilly Ritmicas"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=kz-hl5jGZo0"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/3riBCo25y1A"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Country Sencillo y muy tipico"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/rATGkuwk2Cg"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Doug Seven"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=SaFDuiWngwo"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Historia del country guitar muy bueno"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=wVoT3t1gXcg"
+                }
+            ]
+        }
+
+    ]
+}

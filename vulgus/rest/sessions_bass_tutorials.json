@@ -1,0 +1,36 @@
+{
+    "title":"Bass Tutorials Sessions",
+    "id_session": "bass_tutorials",
+    "description": "A bajear un poco",
+    "tags":["Flamenco", "Metallica"],
+    "img": "https://alliancemusicacademy.com/wp-content/uploads/2012/09/Electric-bass.jpg",
+    "setList":[
+        {
+            "name": "La primera",
+            "link":{
+                "type": "spotify",
+                "src": "https://open.spotify.com/embed/track/32OlwWuMpZ6b0aN2RZOeMS"
+            }
+        }
+    ],
+    "comments":[
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Es muy sencillo sobretodo mano derecha esta muy bien"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=CPIFh4lqjio"
+                }
+            ]
+        }
+
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "title":"Flamenco Sessions",
+    "id_session": "flamenco_tecnicas",
+    "description": "A Buleirar un poco",
+    "tags":["Flamenco"],
+    "img": "https://musicopolix.com/blog/wp-content/uploads/2021/05/que-guitarra-flamenca-comprar-bonita.jpg",
+    "setList":[
+        {
+            "name": "La primera",
+            "link":{
+                "type": "spotify",
+                "src": "https://open.spotify.com/embed/track/32OlwWuMpZ6b0aN2RZOeMS"
+            }
+        }
+    ],
+    "comments":[
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Tangos y remates alzapua"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=y96Omn9HCYk"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=ALX3KWUCqEU"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Alzapua y alegrias"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=9LX0yGWta8w"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=82nT9v5UTg0"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=hmfSdZRBFe8&list=PLyEPX9CmYLmg6s2HiX_qhmtnjjZsda31z&index=10"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Falseta buleria sencilla pero muy bonita"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=JVAwKTSpLsI"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Bulerias sencillas para intentar sacarlas"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=lbOMnpGZZGA"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Bulerias para cantar a la vez"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=qTbULyayYMs"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Bulerias a 6 tiempos"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=YH9bNYyFJhA"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Bulerias lento"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=xmip4Qjm-S0"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=5cJt-TZZwMU"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Bulerias sencillas"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=e3V5ujcQsZI"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=529s6oOEfOs"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Practicando alzapua muy bien explicado con el japones"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=kTWueCkU7Js"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=z0Q_UNhTI_4"
+                }                
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "bulerias sencillas, ruedas para asentar"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=G72s7G1A6gE"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=r3Eec2bvWDk"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=ylzreGlhvjY"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=r3Eec2bvWDk"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "falsetas"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=Ve3UWHVALmQ"
+                },
+                {
+                    "type": "text",
+                    "value": "3 notas para decir te quiero"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=bdRqaB5U1aQ"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "falsetas Vicente amigo (y otros) explicadas"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=K1smT_RdDkw"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/rM4zGbTM3Oc"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/h0juUro61Ms"
+                },
+                {
+                    "type": "text",
+                    "value": "falsetas muy bonitas, sobre todo la segunda"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=JgcsZjEx4lQ"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Bulerias para principiantes"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/HdaM-RnGNm0"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/rM4zGbTM3Oc"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Super ejercicio con todas las tecnicas"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/oCtFLOUiOtk"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Camaron vente conmigo"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=rAg36ADkQu4"
+                },
+                {
+                    "type": "text",
+                    "value": "Bulerias explicadas Paco de lucia"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=FU3avg-Igwg&list=RDFU3avg-Igwg&start_radio=1&t=294"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/XyP1pUK7BDA"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://youtu.be/SgL5foxfg_A"
+                }
+            ]
+        }
+
+    ]
+}

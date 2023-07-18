@@ -61,6 +61,13 @@
         "tags":["Metal", "Frenando"],
         "img": "https://img.playbuzz.com/image/upload/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/v1510291227/hilegxyb9b47qlo2wxwo.jpg"
         
+    },
+    {
+        "title":"Bass Tutorials",
+        "description": "Tutoriales buenos para bajistas",
+        "tags":["Metal", "Frenando"],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjjyLvT_3Xv3FPHisQeV4zD_Xz-iOlQlxPug&usqp=CAU"
+        
     }
 
 ]

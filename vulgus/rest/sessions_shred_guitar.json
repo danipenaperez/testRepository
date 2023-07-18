@@ -1,0 +1,36 @@
+{
+    "title":"Flamenco Sessions",
+    "id_session": "shred_guitar",
+    "description": "Tecnicas guitarra electrica",
+    "tags":["Guitar", "Metallica"],
+    "img": "https://ychef.files.bbci.co.uk/1600x900/p072v7x0.webp",
+    "setList":[
+        {
+            "name": "La primera",
+            "link":{
+                "type": "spotify",
+                "src": "https://open.spotify.com/embed/track/32OlwWuMpZ6b0aN2RZOeMS"
+            }
+        }
+    ],
+    "comments":[
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Tecnicas sencillas pero muy vistosas y faciles"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=0Kzm1vTMmHY"
+                }
+            ]
+        }
+
+    ]
+}
