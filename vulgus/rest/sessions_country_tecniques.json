@@ -27,7 +27,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=gaSNxHZTZo0"
+                    "src": "https://www.youtube.com/embed/gaSNxHZTZo0"
                 }
             ]
         },
@@ -44,7 +44,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=1Nj4mDK-Xwk"
+                    "src": "https://www.youtube.com/embed/1Nj4mDK-Xwk"
                 }
             ]
         },
@@ -61,7 +61,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=wFnY723EZq4"
+                    "src": "https://www.youtube.com/embed/wFnY723EZq4"
                 },
                 {
                     "type": "youTubeVideo",
@@ -82,12 +82,12 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=dbE6la84fXU"
+                    "src": "https://www.youtube.com/embed/dbE6la84fXU"
                 }
                 ,
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=GqMfxct0MhU"
+                    "src": "https://www.youtube.com/embed/GqMfxct0MhU"
                 }
 
                 
@@ -124,7 +124,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=HNf963htMug"
+                    "src": "https://www.youtube.com/embed/HNf963htMug"
                 }
             ]
         },
@@ -141,15 +141,15 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=1IDGzHKHtVk"
+                    "src": "https://www.youtube.com/embed/1IDGzHKHtVk"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=zQFF5Hddiik"
+                    "src": "https://www.youtube.com/embed/zQFF5Hddiik"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=xrc5J99vnQc"
+                    "src": "https://www.youtube.com/embed/xrc5J99vnQc"
                 },
                 {
                     "type": "text",
@@ -158,7 +158,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=HeC-4r6OsBE"
+                    "src": "https://www.youtube.com/embed/HeC-4r6OsBE"
                 }
             ]
         },
@@ -175,15 +175,15 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=LTAElrONyfA"
+                    "src": "https://www.youtube.com/embed/LTAElrONyfA"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=ptQ4uhnsjdE"
+                    "src": "https://www.youtube.com/embed/ptQ4uhnsjdE"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=vMy_0_mIT5I"
+                    "src": "https://www.youtube.com/embed/vMy_0_mIT5I"
                 }
             ]
         },
@@ -200,7 +200,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=wFnY723EZq4&list=PLmJZA0kOrfCIhvc9NePBWSyfhASuiLiUE"
+                    "src": "https://www.youtube.com/embed/wFnY723EZq4&list=PLmJZA0kOrfCIhvc9NePBWSyfhASuiLiUE"
                 }
             ]
         },
@@ -217,7 +217,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=kz-hl5jGZo0"
+                    "src": "https://www.youtube.com/embed/kz-hl5jGZo0"
                 },
                 {
                     "type": "youTubeVideo",
@@ -255,7 +255,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=SaFDuiWngwo"
+                    "src": "https://www.youtube.com/embed/SaFDuiWngwo"
                 }
             ]
         },
@@ -272,7 +272,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=wVoT3t1gXcg"
+                    "src": "https://www.youtube.com/embed/wVoT3t1gXcg"
                 }
             ]
         }

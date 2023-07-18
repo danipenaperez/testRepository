@@ -27,7 +27,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=CPIFh4lqjio"
+                    "src": "https://www.youtube.com/embed/CPIFh4lqjio"
                 }
             ]
         }

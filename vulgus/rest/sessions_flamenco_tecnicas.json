@@ -27,11 +27,11 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=y96Omn9HCYk"
+                    "src": "https://www.youtube.com/embed/y96Omn9HCYk"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=ALX3KWUCqEU"
+                    "src": "https://www.youtube.com/embed/ALX3KWUCqEU"
                 }
             ]
         },
@@ -48,15 +48,15 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=9LX0yGWta8w"
+                    "src": "https://www.youtube.com/embed/9LX0yGWta8w"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=82nT9v5UTg0"
+                    "src": "https://www.youtube.com/embed/82nT9v5UTg0"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=hmfSdZRBFe8&list=PLyEPX9CmYLmg6s2HiX_qhmtnjjZsda31z&index=10"
+                    "src": "https://www.youtube.com/embed/hmfSdZRBFe8&list=PLyEPX9CmYLmg6s2HiX_qhmtnjjZsda31z&index=10"
                 }
             ]
         },
@@ -73,7 +73,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=JVAwKTSpLsI"
+                    "src": "https://www.youtube.com/embed/JVAwKTSpLsI"
                 }
             ]
         },
@@ -90,7 +90,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=lbOMnpGZZGA"
+                    "src": "https://www.youtube.com/embed/lbOMnpGZZGA"
                 }
             ]
         },
@@ -107,7 +107,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=qTbULyayYMs"
+                    "src": "https://www.youtube.com/embed/qTbULyayYMs"
                 }
             ]
         },
@@ -124,7 +124,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=YH9bNYyFJhA"
+                    "src": "https://www.youtube.com/embed/YH9bNYyFJhA"
                 }
             ]
         },
@@ -141,11 +141,11 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=xmip4Qjm-S0"
+                    "src": "https://www.youtube.com/embed/xmip4Qjm-S0"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=5cJt-TZZwMU"
+                    "src": "https://www.youtube.com/embed/5cJt-TZZwMU"
                 }
             ]
         },
@@ -162,11 +162,11 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=e3V5ujcQsZI"
+                    "src": "https://www.youtube.com/embed/e3V5ujcQsZI"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=529s6oOEfOs"
+                    "src": "https://www.youtube.com/embed/529s6oOEfOs"
                 }
             ]
         },
@@ -183,11 +183,11 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=kTWueCkU7Js"
+                    "src": "https://www.youtube.com/embed/kTWueCkU7Js"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=z0Q_UNhTI_4"
+                    "src": "https://www.youtube.com/embed/z0Q_UNhTI_4"
                 }                
             ]
         },
@@ -204,19 +204,19 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=G72s7G1A6gE"
+                    "src": "https://www.youtube.com/embed/G72s7G1A6gE"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=r3Eec2bvWDk"
+                    "src": "https://www.youtube.com/embed/r3Eec2bvWDk"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=ylzreGlhvjY"
+                    "src": "https://www.youtube.com/embed/ylzreGlhvjY"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=r3Eec2bvWDk"
+                    "src": "https://www.youtube.com/embed/r3Eec2bvWDk"
                 }
             ]
         },
@@ -233,7 +233,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=Ve3UWHVALmQ"
+                    "src": "https://www.youtube.com/embed/Ve3UWHVALmQ"
                 },
                 {
                     "type": "text",
@@ -242,7 +242,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=bdRqaB5U1aQ"
+                    "src": "https://www.youtube.com/embed/bdRqaB5U1aQ"
                 }
             ]
         },
@@ -259,7 +259,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=K1smT_RdDkw"
+                    "src": "https://www.youtube.com/embed/K1smT_RdDkw"
                 },
                 {
                     "type": "youTubeVideo",
@@ -276,7 +276,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=JgcsZjEx4lQ"
+                    "src": "https://www.youtube.com/embed/JgcsZjEx4lQ"
                 }
             ]
         },
@@ -331,7 +331,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=rAg36ADkQu4"
+                    "src": "https://www.youtube.com/embed/rAg36ADkQu4"
                 },
                 {
                     "type": "text",
@@ -340,7 +340,7 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=FU3avg-Igwg&list=RDFU3avg-Igwg&start_radio=1&t=294"
+                    "src": "https://www.youtube.com/embed/FU3avg-Igwg&list=RDFU3avg-Igwg&start_radio=1&t=294"
                 },
                 {
                     "type": "youTubeVideo",
