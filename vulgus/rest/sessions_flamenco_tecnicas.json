@@ -349,11 +349,11 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://youtu.be/XyP1pUK7BDA"
+                    "src": "https://www.youtube.com/embed/XyP1pUK7BDA"
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://youtu.be/SgL5foxfg_A"
+                    "src": "https://www.youtube.com/embed/SgL5foxfg_A"
                 }
             ]
         }
