@@ -30,6 +30,23 @@
                     "src": "https://www.youtube.com/embed/0Kzm1vTMmHY"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Brandon Ellis",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Economic Picking Pentatonic lick"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/8beQj7awmAs?si=lNaf2SXTBwwOa1g9"
+                }
+            ]
         }
 
     ]
