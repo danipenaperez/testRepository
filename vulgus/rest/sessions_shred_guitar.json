@@ -47,6 +47,23 @@
                     "src": "https://www.youtube.com/embed/8beQj7awmAs?si=lNaf2SXTBwwOa1g9"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Zakk Wylde style",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Zakk Wylde solo style"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/HqqZR9NRD2I?si=lNaf2SXTBwwOa1g9"
+                }
+            ]
         }
 
     ]
