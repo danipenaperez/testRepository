@@ -64,6 +64,23 @@
                     "src": "https://www.youtube.com/embed/HqqZR9NRD2I?si=lNaf2SXTBwwOa1g9"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Dimebag solo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Dimebag solo"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/cTPCg6hxKiQ?si=lNaf2SXTBwwOa1g9"
+                }
+            ]
         }
 
     ]
