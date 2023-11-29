@@ -101,10 +101,27 @@
                     "src": "https://www.youtube.com/embed/19dOaGgd7LE"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Daniel",
+                "img":"https://yt3.ggpht.com/-tO_SdVYSVg8/AAAAAAAAAAI/AAAAAAAAAAA/t089mcHnzD0/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Muy completo y sencillo bien explicado Bulerias"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/JzraS01sCWU"
+                }
+            ]
         }
 
 
-
+        
 
         
     ]
