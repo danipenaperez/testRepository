@@ -275,6 +275,71 @@
                     "src": "https://www.youtube.com/embed/wVoT3t1gXcg"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "TrueFire",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Canal TrueFire Jason Loughlin https://www.youtube.com/watch?v=FjkUqwsxQWQ&list=PLAOn5PMlKYSKJ-6Vgqm10Wsvwt6vjKpZ0&index=80"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/FjkUqwsxQWQ"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/c6ZJVMVjboY"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/pqy263O-kIg"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/3c_6-gq9FEE"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/wb7HCsvepuY"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/dMynsRy5ybw"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/ADkYqy-z6Cw"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/fBjEE_0AFvg"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/Kv7NbBQB-nc"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/-jwVqMdBiR0"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/OnsydlQR8bE"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/ebSScSYfwk"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/Dk2cOqU8rfg"
+                }
+            ]
         }
 
     ]
