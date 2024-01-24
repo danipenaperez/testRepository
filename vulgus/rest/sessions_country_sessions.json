@@ -47,6 +47,24 @@
                     "src": "https://www.youtube.com/embed/Jj_SfowKL4E"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Muy bueno a varias velocidaes."
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/nKzkh7rG5Jg"
+                }
+            ]
         }
+
     ]
 }
