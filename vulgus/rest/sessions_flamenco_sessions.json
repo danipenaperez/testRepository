@@ -138,12 +138,28 @@
                     "type": "youTubeVideo",
                     "src": "https://www.youtube.com/embed/4P1oXcbeRFI"
                 }
+
+                
+            ]
+        },
+        {
+            "user": {
+                "name": "Daniel",
+                "img":"https://yt3.ggpht.com/-tO_SdVYSVg8/AAAAAAAAAAI/AAAAAAAAAAA/t089mcHnzD0/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Tres notas para decire te quiero"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/u3GI0CstEZY"
+                }
+
             ]
         }
-
-
-        
-
         
     ]
 }

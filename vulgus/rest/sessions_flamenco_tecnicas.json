@@ -388,6 +388,10 @@
                 {
                     "type": "youTubeVideo",
                     "src": "https://www.youtube.com/embed/0T9q6HjqzhU"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/GsfBXsDJGgE"
                 }
             ]
         }
