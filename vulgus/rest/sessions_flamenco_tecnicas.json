@@ -394,7 +394,23 @@
                     "src": "https://www.youtube.com/embed/GsfBXsDJGgE"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Bulerias curso",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Jugando por bulerias curso"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/GFHaO7vqx1Q"
+                }
+            ]
         }
-
     ]
 }
