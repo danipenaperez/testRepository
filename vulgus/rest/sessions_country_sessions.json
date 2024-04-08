@@ -64,6 +64,23 @@
                     "src": "https://www.youtube.com/embed/nKzkh7rG5Jg"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "No tiene tab pero esta muy bien."
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/FKgcavfUTsA"
+                }
+            ]
         }
 
     ]
