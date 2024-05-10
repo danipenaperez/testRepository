@@ -411,6 +411,23 @@
                     "src": "https://www.youtube.com/embed/GFHaO7vqx1Q"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Bartolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Tremolo ejercicio varias cuerdas sencillo"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/dtJeDbZVYRU"
+                }
+            ]
         }
     ]
 }
