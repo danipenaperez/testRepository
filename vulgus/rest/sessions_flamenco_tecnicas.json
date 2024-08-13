@@ -428,6 +428,25 @@
                     "src": "https://www.youtube.com/embed/dtJeDbZVYRU"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Paco",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Alzapua varios ejemplos"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=qXZ04R4geGM"
+                }
+            ]
         }
     ]
 }
+
+
