@@ -30,6 +30,23 @@
                     "src": "https://www.youtube.com/embed/CPIFh4lqjio"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Mutting funki"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/pYWzmyIH7UA?si=gYEqDSCLrty6q_2G"
+                }
+            ]
         }
 
     ]
