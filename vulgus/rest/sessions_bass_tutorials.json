@@ -44,7 +44,11 @@
                 },
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/embed/pYWzmyIH7UA?si=gYEqDSCLrty6q_2G"
+                    "src": "https://www.youtube.com/embed/pYWzmyIH7UA"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/JijkT6z6xfo"
                 }
             ]
         }
