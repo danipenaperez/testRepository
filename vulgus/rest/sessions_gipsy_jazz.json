@@ -1,0 +1,37 @@
+{
+    "title":"Gypsy Sessions",
+    "id_session": "gypsy_tecnicas",
+    "description": "Gypsy tutoriales",
+    "tags":["Gypsy"],
+    "img": "https://i0.wp.com/pentamusica.com/wp-content/uploads/2021/05/foto-color.jpeg",
+    "setList":[
+        {
+            "name": "La primera",
+            "link":{
+                "type": "spotify",
+                "src": "https://open.spotify.com/embed/track/32OlwWuMpZ6b0aN2RZOeMS"
+            }
+        }
+    ],
+    "comments":[
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Nunca toques la septima"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/UCw3BjBOwe4"
+                }
+            ]
+        }
+    ]
+}
+
+

@@ -7,6 +7,13 @@
 
     },
     {
+        "title":"Gypsy Sessions",
+        "description": "Gypsy guitar tutorials",
+        "tags":["Gypsy"],
+        "img": "https://i0.wp.com/pentamusica.com/wp-content/uploads/2021/05/foto-color.jpeg"
+
+    },
+    {
         "title":"Lucifer",
         "description": "Metal Lucifer",
         "tags":["Metal", "Lucifer"],
