@@ -104,6 +104,24 @@
                 }
                 
             ]
+        },
+        {
+            "user": {
+                "name": "Tornado of souls",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Tornado of souls tutorial"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/E5WoxqThfwU"
+                }
+                
+            ]
         }
 
 
