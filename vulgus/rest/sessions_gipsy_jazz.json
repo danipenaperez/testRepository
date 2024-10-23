@@ -30,7 +30,27 @@
                     "src": "https://www.youtube.com/embed/UCw3BjBOwe4"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Creando una cancion desde cero. muy bueno"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/UBQif1eLPcc"
+                }
+            ]
         }
+
+
+        
     ]
 }
 
