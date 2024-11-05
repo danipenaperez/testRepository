@@ -51,6 +51,23 @@
                     "src": "https://www.youtube.com/embed/JijkT6z6xfo"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Super bueno"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/9aKOeWk33cA"
+                }
+            ]
         }
 
     ]
