@@ -163,7 +163,7 @@
     ,
     {
         "title":"Drum Tutorials",
-        "id_session": "drum_tutorials",
+        "id_session": "drums_tutorials", 
         "description": "Drum tutoriales",
         "tags":["Drums"],
         "img": "https://i.ytimg.com/vi/Wj8RQzdfd3I/hq720.jpg"
