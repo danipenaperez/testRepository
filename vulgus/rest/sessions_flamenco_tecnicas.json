@@ -450,6 +450,24 @@
                 }
             
             ]
+        },
+        {
+            "user": {
+                "name": "Paco",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Solea por buleria muy lenta"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/watch?v=YOvNUS0jYIM"
+                }
+            
+            ]
         }
     ]
 }
