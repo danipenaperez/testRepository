@@ -1,0 +1,54 @@
+{
+    "title":"Flamenco Sessions",
+    "id_session": "flamenco_tecnicas",
+    "description": "A Buleirar un poco",
+    "tags":["Flamenco"],
+    "img": "https://musicopolix.com/blog/wp-content/uploads/2021/05/que-guitarra-flamenca-comprar-bonita.jpg",
+    "setList":[
+        {
+            "name": "La primera",
+            "link":{
+                "type": "spotify",
+                "src": "https://open.spotify.com/embed/track/32OlwWuMpZ6b0aN2RZOeMS"
+            }
+        }
+    ],
+    "comments":[
+        {
+            "user": {
+                "name": "Paco",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Funky grooves tutoriales"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/ze-WIvs-CFk"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/PT-HqK016NQ"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/eqce0suCWMU"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/ze-WIvs-CFk"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/EtcNO8LI59Q"
+                }
+            
+            ]
+        }
+    ]
+}
+
+

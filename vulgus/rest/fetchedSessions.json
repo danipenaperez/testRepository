@@ -160,4 +160,13 @@
         "img": "https://cdn.mos.cms.futurecdn.net/VYtaVE3MoGxM5uQfWutve5-970-80.png.webp"
         
     }
+    ,
+    {
+        "title":"Drum Tutorials",
+        "id_session": "drum_tutorials",
+        "description": "Drum tutoriales",
+        "tags":["Drums"],
+        "img": "https://i.ytimg.com/vi/Wj8RQzdfd3I/hq720.jpg"
+        
+    }
 ]
