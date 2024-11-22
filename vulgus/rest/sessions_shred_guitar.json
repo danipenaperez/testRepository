@@ -120,6 +120,16 @@
                     "type": "youTubeVideo",
                     "src": "https://www.youtube.com/embed/E5WoxqThfwU"
                 }
+                ,
+                {
+                    "type": "text",
+                    "value": "Doug Aldrich recomienda..."
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/FLCTgJjoUiQ?start=1060"
+                }
                 
             ]
         }
