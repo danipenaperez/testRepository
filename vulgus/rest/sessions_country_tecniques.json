@@ -371,12 +371,12 @@
                 ,
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=881AFYeVzpI"
+                    "src": "https://www.youtube.com/embed/881AFYeVzpI"
                 }
                 ,
                 {
                     "type": "youTubeVideo",
-                    "src": "https://www.youtube.com/watch?v=cyGei2bUh2Q"
+                    "src": "https://www.youtube.com/embed/cyGei2bUh2Q"
                 }
             ]
         }
