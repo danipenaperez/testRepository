@@ -381,6 +381,14 @@
                 {
                     "type": "youTubeVideo",
                     "src": "https://www.youtube.com/embed/H56i5GhfOJg"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/Nid-J5UWZzQ"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/Xm2ODiNUhac"
                 }
             ]
         }
