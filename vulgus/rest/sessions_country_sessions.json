@@ -127,12 +127,24 @@
             "content": [
                 {
                     "type": "text",
-                    "value": "Jerry Reed Merle Travis finger style. Nine pound hammer"
+                    "value": "Jerry Reed Merle Travis finger style. Nine pound hammer https://www.brianposton.net/lessons"
                     
                 },
                 {
                     "type": "youTubeVideo",
                     "src": "https://www.youtube.com/embed/Ww3remymj1Q"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/bdlvvM_M3TI"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/Nid-J5UWZzQ"
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/_v7FKEcqL8E"
                 }
                 
             ]
