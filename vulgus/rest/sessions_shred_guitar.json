@@ -147,8 +147,26 @@
                 }
                 
             ]
+        },
+        {
+            "user": {
+                "name": "Vinnie",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Vinnie es tu amigo"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/TmIyTuT9Yaw"
+                }
+                
+            ]
         }
-
+        
 
     ]
 }
