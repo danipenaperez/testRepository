@@ -47,8 +47,24 @@
                     "src": "https://www.youtube.com/embed/UBQif1eLPcc"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "Manolo",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "CUsando triadas, muy sencillo y bueno"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/oWEF6DPevro"
+                }
+            ]
         }
-
 
         
     ]
