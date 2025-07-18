@@ -183,6 +183,24 @@
                 }
                 
             ]
+        },
+        {
+            "user": {
+                "name": "Jordan St",
+                "img":"testRepository/images/icons/guitar/favicon.png"
+            },
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Todos los trucos, este video es la leche"
+                    
+                },
+                {
+                    "type": "youTubeVideo",
+                    "src": "https://www.youtube.com/embed/5Fy2C207LcA"
+                }
+                
+            ]
         }
         
 
